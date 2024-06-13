@@ -6,7 +6,6 @@ export class Counter extends React.Component {
     //this.contador = 0;
     this.state = { contador: 0, name:"", password: ""  };
   }
-
   render() {
     return (
       <div style={{ marginTop: "20px", marginLeft: "20px" }}>
