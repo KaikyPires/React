@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #222222;
+    color: white;
+   font-family: roboto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  a:hover {
+    color: #ffe91e; /* Change to a different color on hover */
+    transition: color 0.35;
+}
+  
+  header {
+    background-color: #333333;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+   
+  }
+  header h1{
+    font-family: Grenze Gotisch;
+  }
+  
+  nav#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 60px;
+  }
+  
+  .nav-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 1rem; /* Space between the image and the title */
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem; /* Space between the list items */
+  }
+  
+  .nav-list li {
+    font-size: 1.1rem;
+  }
+  section#articles{
+    margin-top: 4rem;
+    max-width: 1240px;
+    padding: 0 2rem;
+    margin: 4rem auto;
+  }
+  
+  
